@@ -35,8 +35,16 @@
         <p>Pakistan is my country</p>
     </div>
     <div class="forth-div">
-        <h1>Video Embedding</h1>
-        <video src="190408_10_MonarchLifecycle3_08.mp4" controls></video>
+        <h1>Video Embedding with absolute path</h1>
+        <video width="320" height="240" controls>
+            <source src="C:\Users\admin\Desktop\circle web development\class 5\video\190408_10_MonarchLifecycle3_08.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+    </div>
+    <div class="forth-div">
+        <h1>Video Embedding with relative path</h1>
+        <video src="video\190408_10_MonarchLifecycle3_08.mp4" controls></video>
     </div>
 </body>
 
