@@ -11,3 +11,14 @@ div p{
 .second-div > span{
     font-size: 33px;
 }
+.third-div + p{
+    background-color: rgb(47, 28, 160);
+    font-size: 23px;
+}
+video{
+    height: 24rem;
+    width: 45rem;
+}
+.forth-div{
+    text-align: center;
+}
