@@ -4,3 +4,10 @@ div p{
     height: 3rem;
     text-align: center;
 }
+.first-div p{
+    color: brown;
+}
+
+.second-div > span{
+    font-size: 33px;
+}
